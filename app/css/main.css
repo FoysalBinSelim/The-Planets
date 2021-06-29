@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: black;
+  z-index: 0;
+}
+
+.showcase-vid {
+  position: relative;
+  background-image: url(../background-stars.f6233a6a.svg);
+  height: 100vh;
+  z-index: 1;
+}
+
+.showcase-vid .planet-show {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.showcase-vid .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  mix-blend-mode: overlay;
+  z-index: 2;
+}
+
+.showcase-vid .cta-start {
+  color: #bcbcf3;
+  padding: 15px 95px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in 0s;
+  transition: 0.4s ease-in 0s;
+  position: absolute;
+  bottom: 8%;
+  right: 9.5%;
+  text-decoration: none;
+  font-family: "ubuntu", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  z-index: 10;
+  border-radius: 0px 5px 0px 5px;
+  border: 1px solid rgba(215, 218, 255, 0.6);
+  text-transform: uppercase;
+}
+
+.showcase-vid .cta-start:hover {
+  color: white;
+  background: #ff7a85;
+}
+/*# sourceMappingURL=main.css.map */

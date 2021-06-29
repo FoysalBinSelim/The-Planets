@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Oxanium:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./app/css/style.css">
+    <title>The Planets</title>
+</head>
+
+<body>
+    <section class="Planets">
+
+        <div>
+            <div class="nav">
+                <a href="./index.html">
+                    <h3>The Planets</h3>
+                </a>
+                <div class="navlinks">
+                    <ul>
+                        <li>
+                            <a id ="mercury" href="#">
+                                Mercury
+                            </a>
+                        </li>
+                        <li>
+                            <a id ="venus" href="#">
+                                Venus
+                            </a>
+                        </li>
+                        <li>
+                            <a id ="earth" href="#">
+                                Earth
+                            </a>
+                        </li>
+                        <li>
+                            <a id ="mars" href="#">
+                                Mars
+                            </a>
+                        </li>
+                        <li>
+                            <a id ="jupitar" href="#">
+                                Jupiter
+                            </a>
+                        </li>
+                        <li>
+                            <a id ="saturn" href="#">
+                                saturn
+                            </a>
+                        </li>
+                        <li>
+                            <a id ="uranus" href="#">
+                                Uranus
+                            </a>
+                        </li>
+                        <li>
+                            <a id ="neptune" href="#">
+                                Neptune
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="showcase">
+            <div class="image">
+                <div class="f-pageinfo">
+                    <h1 class="first-heading">THE PLA<span>N</span>ETS</h1>
+                    <p class="f-pnav">Use Navbars to navigate through the Planets of our Solar System</p>
+                </div>
+                <img id="planet-image" src="./img/solar.svg" alt="solarsystem">
+            </div>
+
+            <div class="links">
+                
+                <p class="planet-inf">
+                </p>
+
+                <div class="planet-info-nav">
+                    <ul>
+                        <li>
+                            <a class="structure" href="#"><span>01</span> INTERNAL STRUCTURE</a> 
+                        </li>
+                        <li>
+                            <a class="geology" href="#"><span>02</span> SURFACE GEOLOGY</a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="data">
+                    <div class="Rotation">
+                        <h4>Rotation time</h4>
+                        <h2 id="rotatedata"></h2>
+                    </div>
+                    <div class="Revolution">
+                        <h4>Revolution time</h4>
+                        <h2 id="revdata"></h2>
+                    </div>
+                    <div class="Radius">
+                        <h4>Radius</h4>
+                        <h2 id="radius"></h2>
+                    </div>
+                    <div class="Temp">
+                        <h4>Average Temp.</h4>
+                        <h2 id="temp"></h2>
+                    </div>
+                
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<script type ="module" src="./app/js/script.js"></script>
+</body>
+
+</html>

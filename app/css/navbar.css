@@ -1,0 +1,53 @@
+.nav {
+  font-family: "ubuntu", sans-serif;
+  color: #a9b6da;
+  z-index: 1;
+  position: relative;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  border-bottom: 0.7px solid rgba(114, 112, 112, 0.6);
+  text-transform: uppercase;
+}
+
+.nav .navlinks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .navlinks ul li {
+  list-style: none;
+  padding: 15px;
+}
+
+.nav .navlinks ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: cyan;
+  border-style: hidden;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in 0s;
+  transition: 0.4s ease-in 0s;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.nav .navlinks ul li a:hover {
+  color: #878192;
+}
+/*# sourceMappingURL=navbar.css.map */

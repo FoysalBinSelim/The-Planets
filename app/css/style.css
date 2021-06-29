@@ -1,0 +1,238 @@
+.nav {
+  font-family: "ubuntu", sans-serif;
+  color: #a9b6da;
+  z-index: 1;
+  position: relative;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  border-bottom: 0.7px solid rgba(114, 112, 112, 0.6);
+  text-transform: uppercase;
+}
+
+.nav .navlinks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .navlinks ul li {
+  list-style: none;
+  padding: 15px;
+}
+
+.nav .navlinks ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: cyan;
+  border-style: hidden;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in 0s;
+  transition: 0.4s ease-in 0s;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.nav .navlinks ul li a:hover {
+  color: #878192;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0d0114;
+  z-index: 0;
+  position: relative;
+}
+
+.Planets {
+  background-image: url(../background-stars.f6233a6a.svg);
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.Planets a {
+  text-decoration: none;
+  color: #f1f1f7;
+  font-family: "ubuntu", sans-serif;
+}
+
+.Planets .showcase {
+  padding: 20px 0px 20px 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr;
+      grid-template-columns: 3fr 2fr;
+  -ms-grid-rows: 2fr 1fr;
+      grid-template-rows: 2fr 1fr;
+      grid-template-areas: "image links" "data data";
+  overflow: hidden;
+}
+
+.Planets .image {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: image;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.Planets .image .f-pageinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  right: 50%;
+}
+
+.Planets .image .f-pageinfo h1 {
+  color: #d7d7e2;
+  font-family: "orbitron", Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4rem;
+}
+
+.Planets .image .f-pageinfo p {
+  color: #d7d7e2;
+  font-family: "orbitron", sans-serif;
+  font-size: 1.3rem;
+}
+
+.Planets .links {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: links;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #d2d3e6;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.Planets .links .planet-info-nav {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 0px;
+}
+
+.Planets .links .planet-info-nav li {
+  list-style: none;
+  padding: 5px 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.Planets .links .planet-info-nav li a {
+  text-decoration: none;
+  display: inline-block;
+  background: none;
+  border: 1px solid #868686;
+  color: #fcfcfc;
+  padding: 10px 25px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.Planets .links .planet-info-nav li a span {
+  color: #d6d1d1;
+  padding-right: 5px;
+}
+
+.Planets .links .planet-info-nav a:hover {
+  background: #f090cb;
+}
+
+.Planets .data {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: data;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Planets .data .Rotation,
+.Planets .data .Revolution,
+.Planets .data .Radius,
+.Planets .data .Temp {
+  display: inline-block;
+  border: 1px solid rgba(245, 245, 245, 0.7);
+  background: none;
+  padding: 10px 28px;
+  text-align: center;
+}
+
+.Planets .data .Rotation h4,
+.Planets .data .Revolution h4,
+.Planets .data .Radius h4,
+.Planets .data .Temp h4 {
+  color: rgba(181, 186, 216, 0.7);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.Planets .data .Rotation h2,
+.Planets .data .Revolution h2,
+.Planets .data .Radius h2,
+.Planets .data .Temp h2 {
+  padding-top: 5px;
+  font-family: "oxanium", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */
