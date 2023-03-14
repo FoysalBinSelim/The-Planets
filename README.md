@@ -9,6 +9,6 @@
  Fetching and filtering data and set them up in html components using javascript.
 
 ## **Things I want to do.**
- - Use React,js to build teh whole thing
+ - Use React,js to build the whole thing
  - Make it device responsive
 
